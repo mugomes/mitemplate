@@ -1,0 +1,32 @@
+{
+    "name": "mugomes/mitemplate",
+    "type": "library",
+    "description": "PHP Template with Cache and Minify Code.",
+    "homepage": "https://github.com/mugomes/mitemplate/",
+    "license": "LGPL-2.1-only",
+    "_comment": [
+        "Copyright (C) 2025 Murilo Gomes Julio"
+    ],
+    "authors": [
+        {
+            "name": "Murilo Gomes",
+            "email": "mugomesoficial@gmail.com",
+            "homepage": "https://www.mugomes.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.4",
+        "pfaciana/tiny-html-minifier": "3.0.0",
+        "phpfastcache/phpfastcache": "9.2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MiTemplate\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"chmod('./cache', 0777);\""
+        ]
+    }
+}
