@@ -1,7 +1,7 @@
 # MiTemplate
 MiTemplate permite separar a lógica de programação (PHP) da estrutura visual (HTML, XML, CSS, entre outros), facilitando a manutenção e organização do código.
 
-Ele é baseado no [Template](https://github.com/raelgc/template) (veja [CRÉDITOS](CREDITS.txt)), com diversas melhorias. O MiTemplate é desenvolvido por Murilo Gomes e é lançado sob a licença LGPL-2.1-only.
+O MiTemplate é baseado no excelente projeto [Template](https://github.com/raelgc/template) (veja [CRÉDITOS](CREDITS.txt)), com diversas melhorias.
 
 ## Funcionalidades
 
