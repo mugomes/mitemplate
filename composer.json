@@ -1,6 +1,7 @@
 {
     "name": "mugomes/mitemplate",
     "type": "library",
+    "version": "0.1.0",
     "description": "PHP Template with Cache and Minify Code.",
     "homepage": "https://github.com/mugomes/mitemplate/",
     "license": "LGPL-2.1-only",
@@ -16,17 +17,11 @@
     ],
     "require": {
         "php": ">=8.4",
-        "pfaciana/tiny-html-minifier": "3.0.0",
-        "phpfastcache/phpfastcache": "9.2.4"
+        "pfaciana/tiny-html-minifier": "3.0.0"
     },
     "autoload": {
         "psr-4": {
             "MiTemplate\\": "src/"
         }
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "php -r \"chmod('./cache', 0777);\""
-        ]
     }
 }
