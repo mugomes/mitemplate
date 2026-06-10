@@ -1,5 +1,8 @@
 # MiTemplate
 
+> [!NOTE]
+> This repository has been migrated to Codeberg, please see: https://codeberg.org/bluice/mitemplate
+
 MiTemplate é um mecanismo de templates **leve e moderno escrito em PHP**, focado em **simplicidade**, **performance** e **controle explícito por código**.
 
 Ele permite separar HTML da lógica da aplicação sem depender de parsers complexos, ASTs, engines pesadas ou fases de compilação.
